@@ -24,7 +24,7 @@ body{
 .bg{
 	width:1200px;
 	height:600px;
-	background:url("img/bg.jpg")no-repeat;
+	background:url(../img/bg.jpg)no-repeat;
 	position:absolute;
 	left:50%;
 	top:50%;
