@@ -44,7 +44,7 @@ body{
 .blessing_img{
 	width:400px;
 	height:240px;
-	background:url(file:///C|/Users/Administrator/Desktop/study_text/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8B/%E7%B2%BD%E5%AD%90css+js/img/caption.png);
+	background:url(../img/caption.png);
 	position:absolute;
 	margin-left:40px;
 	opacity:0;
@@ -84,7 +84,7 @@ body{
 .ricePudding{
 	width:312px;
 	height:315px;
-	background:url(file:///C|/Users/Administrator/Desktop/study_text/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8B/%E7%B2%BD%E5%AD%90css+js/img/zz.png);
+	background:url(../img/zz.png);
 	position:absolute;
 	left:30px;
 	top:30px;
@@ -100,7 +100,7 @@ body{
 .rope1{
 	width:218px;
 	height:180px;
-	background:url(file:///C|/Users/Administrator/Desktop/study_text/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8B/%E7%B2%BD%E5%AD%90css+js/img/line_1.png)center center no-repeat;
+	background:url(../img/line_1.png)center center no-repeat;
 	position:absolute;
 	left:41px;
 	top:154px;
@@ -115,7 +115,7 @@ body{
 .rope2{
 	width:219px;
 	height:159px;
-	background:url(file:///C|/Users/Administrator/Desktop/study_text/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8B/%E7%B2%BD%E5%AD%90css+js/img/line_2.png)center center no-repeat;
+	background:url(../img/line_2.png)center center no-repeat;
 	position:absolute;
 	left:41px;
 	top:189px;
@@ -129,7 +129,7 @@ body{
 .rope3{
 	width:264px;
 	height:117px;
-	background:url(file:///C|/Users/Administrator/Desktop/study_text/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8B/%E7%B2%BD%E5%AD%90css+js/img/line_3.png)center center no-repeat;
+	background:url(../img/line_3.png)center center no-repeat;
 	position:absolute;
 	left:41px;
 	top:251px;
@@ -144,7 +144,7 @@ body{
 .rope4{
 	width:288px;
 	height:56px;
-	background:url(file:///C|/Users/Administrator/Desktop/study_text/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8B/%E7%B2%BD%E5%AD%90css+js/img/line_4.png)center center no-repeat;
+	background:url(../img/line_4.png)center center no-repeat;
 	position:absolute;
 	left:48px;
 	top:319px;
@@ -163,7 +163,7 @@ body{
 .ricePudding_meat{
 	width:300px;
 	height:300px;
-	background:url(file:///C|/Users/Administrator/Desktop/study_text/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8B/%E7%B2%BD%E5%AD%90css+js/img/zzr_1.png)center center no-repeat;
+	background:url(../img/zzr_1.png)center center no-repeat;
 	position:absolute;
 	left:51px;
 	top:53px;
@@ -179,15 +179,15 @@ body{
 
 .ricePudding_meat_view2{
 	transition:none;
-	background:url(file:///C|/Users/Administrator/Desktop/study_text/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8B/%E7%B2%BD%E5%AD%90css+js/img/zzr_2.png)center center no-repeat;
+	background:url(../img/zzr_2.png)center center no-repeat;
 	}
 .ricePudding_meat_view3{
 	transition:none;
-	background:url(file:///C|/Users/Administrator/Desktop/study_text/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8B/%E7%B2%BD%E5%AD%90css+js/img/zzr_3.png)center center no-repeat;
+	background:url(../img/zzr_3.png)center center no-repeat;
 	}
 .ricePudding_meat_view4{
 	transition:none;
-	background:url(file:///C|/Users/Administrator/Desktop/study_text/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8B/%E7%B2%BD%E5%AD%90css+js/img/zzr_4.png)center center no-repeat;
+	background:url(../img/zzr_4.png)center center no-repeat;
 	}
 .ricePudding_meat_view5{
 	transition:none;
@@ -202,7 +202,7 @@ body{
 .leaves_left{
 	width:147px;
 	height:266px;
-	background:url(file:///C|/Users/Administrator/Desktop/study_text/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8B/%E7%B2%BD%E5%AD%90css+js/img/leaf_left.png)center center no-repeat;
+	background:url(../img/leaf_left.png)center center no-repeat;
 	position:absolute;
 	left:29px;
 	top:7px;
@@ -225,7 +225,7 @@ body{
 .leaves_right{
 	width:318px;
 	height:338px;
-	background:url(file:///C|/Users/Administrator/Desktop/study_text/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8B/%E7%B2%BD%E5%AD%90css+js/img/leaf_right.png)center center no-repeat;
+	background:url(../img/leaf_right.png)center center no-repeat;
 	position:absolute;
 	left:87px;
 	top:-3px;
@@ -247,7 +247,7 @@ body{
 .leaves_bottom{
 	width:618px;
 	height:464px;
-	background:url(file:///C|/Users/Administrator/Desktop/study_text/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8B/%E7%B2%BD%E5%AD%90css+js/img/leaf_expand.png)center center no-repeat;
+	background:url(../img/leaf_expand.png)center center no-repeat;
 	position:absolute;
 	left:-89px;
 	top:8px;
@@ -266,7 +266,7 @@ body{
 .blessing1{
 	width:180px;
 	height:100px;
-	background:url(file:///C|/Users/Administrator/Desktop/study_text/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8B/%E7%B2%BD%E5%AD%90css+js/img/t_haoyun.png)center center no-repeat;
+	background:url(../img/t_haoyun.png)center center no-repeat;
 	position:absolute;
 	left:114px;
 	top:175px;
@@ -277,7 +277,7 @@ body{
 .blessing1_l0{
 		width:180px;
 	height:100px;
-	background:url(file:///C|/Users/Administrator/Desktop/study_text/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8B/%E7%B2%BD%E5%AD%90css+js/img/t_haoyun.png)center center no-repeat;
+	background:url(../img/t_haoyun.png)center center no-repeat;
 	position:absolute;
 	left:114px;
 	top:175px;
@@ -289,7 +289,7 @@ body{
 .blessing1_l1{
 	width:180px;
 	height:100px;
-	background:url(file:///C|/Users/Administrator/Desktop/study_text/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8B/%E7%B2%BD%E5%AD%90css+js/img/t_haoyun.png)center center no-repeat;
+	background:url(../img/t_haoyun.png)center center no-repeat;
 	position:absolute;
 	left:84px;
 	top:167px;
@@ -302,7 +302,7 @@ body{
 .blessing2_r1{
 	width:180px;
 	height:100px;
-	background:url(file:///C|/Users/Administrator/Desktop/study_text/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8B/%E7%B2%BD%E5%AD%90css+js/img/t_jixiang.png)center center no-repeat;
+	background:url(../img/t_jixiang.png)center center no-repeat;
 	position:absolute;
 	left:193px;
 	top:173px;
@@ -314,7 +314,7 @@ body{
 .blessing1_l2{
 	width:180px;
 	height:100px;
-	background:url(file:///C|/Users/Administrator/Desktop/study_text/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8B/%E7%B2%BD%E5%AD%90css+js/img/t_haoyun.png)center center no-repeat;
+	background:url(../img/t_haoyun.png)center center no-repeat;
 	position:absolute;
 	left:74px;
 	top:174px;
@@ -327,7 +327,7 @@ body{
 .blessing2_r2{
 	width:180px;
 	height:100px;
-	background:url(file:///C|/Users/Administrator/Desktop/study_text/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8B/%E7%B2%BD%E5%AD%90css+js/img/t_jixiang.png)center center no-repeat;
+	background:url(../img/t_jixiang.png)center center no-repeat;
 	position:absolute;
 	left:180px;
 	top:173px;
@@ -339,7 +339,7 @@ body{
 .blessing1_l3{
 	width:180px;
 	height:100px;
-	background:url(file:///C|/Users/Administrator/Desktop/study_text/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8B/%E7%B2%BD%E5%AD%90css+js/img/t_haoyun.png)center center no-repeat;
+	background:url(../img/t_haoyun.png)center center no-repeat;
 	position:absolute;
 	left:31px;
 	top:176px;
@@ -352,7 +352,7 @@ body{
 .blessing2_r3{
 	width:180px;
 	height:100px;
-	background:url(file:///C|/Users/Administrator/Desktop/study_text/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8B/%E7%B2%BD%E5%AD%90css+js/img/t_jixiang.png)center center no-repeat;
+	background:url(../img/t_jixiang.png)center center no-repeat;
 	position:absolute;
 	left:150px;
 	top:173px;
@@ -364,7 +364,7 @@ body{
 .blessing2_r4{
 	width:180px;
 	height:100px;
-	background:url(file:///C|/Users/Administrator/Desktop/study_text/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8B/%E7%B2%BD%E5%AD%90css+js/img/t_jixiang.png)center center no-repeat;
+	background:url(../img/t_jixiang.png)center center no-repeat;
 	position:absolute;
 	left:112px;
 	top:173px;
