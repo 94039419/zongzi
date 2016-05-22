@@ -24,7 +24,7 @@ body{
 .bg{
 	width:1200px;
 	height:600px;
-	background:url(file:///C|/Users/Administrator/Desktop/study_text/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8B/%E7%B2%BD%E5%AD%90css+js/img/bg.jpg)no-repeat;
+	background:url("/img/bg.jpg")no-repeat;
 	position:absolute;
 	left:50%;
 	top:50%;
