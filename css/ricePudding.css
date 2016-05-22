@@ -1,0 +1,374 @@
+*{
+	padding:0;
+	margin:0;	
+	}
+
+@-webkit-keyframes rock{
+	0%{ transform:rotate(0deg)}
+	10%{transform:rotate(3deg)}
+	20%{transform:rotate(-3deg)}
+	30%{transform:rotate(2deg)}
+	40%{transform:rotate(-2deg)}
+	50%{transform:rotate(1deg)}
+	60%{transform:rotate(-1deg)}
+	70%{transform:rotate(0deg)}
+	100%{transform:rotate(0deg)}
+	
+}
+
+body{
+	width:1200px;
+	height:600px;
+	}
+
+.bg{
+	width:1200px;
+	height:600px;
+	background:url(file:///C|/Users/Administrator/Desktop/study_text/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8B/%E7%B2%BD%E5%AD%90css+js/img/bg.jpg)no-repeat;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-600px;
+	margin-top:-300px;
+	}
+	
+.text_box{
+	width:400px;
+	height:400px;
+	position:absolute;
+	left:247px;
+	top:88px;
+	}
+
+
+.blessing_img{
+	width:400px;
+	height:240px;
+	background:url(file:///C|/Users/Administrator/Desktop/study_text/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8B/%E7%B2%BD%E5%AD%90css+js/img/caption.png);
+	position:absolute;
+	margin-left:40px;
+	opacity:0;
+	transition:all 2s;
+	}
+.dragonBoat_happy{
+	position:absolute;
+	margin-top:300px;
+	text-indent:110px;
+	color:#F60;
+	font-size:40px;
+	opacity:0;
+	transition:all 2s 1s;
+	}
+	
+.moveIn .dragonBoat_happy{
+	opacity:1;
+	}
+	
+.moveIn .blessing_img{
+	opacity:1;
+	margin-left:0;
+	}
+	
+.img_box{
+	width:400px;
+	height:400px;
+	position:absolute;
+	left:709px;
+	top:173px;
+	cursor:pointer;
+	}
+.img_box_rock{														/*粽子抖动*/
+	-webkit-animation:rock 2s infinite;
+	}
+
+.ricePudding{
+	width:312px;
+	height:315px;
+	background:url(file:///C|/Users/Administrator/Desktop/study_text/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8B/%E7%B2%BD%E5%AD%90css+js/img/zz.png);
+	position:absolute;
+	left:30px;
+	top:30px;
+	transform:scale(1);
+	transition:all 1s;
+
+	}
+.ricePudding_out{
+	opacity:0;
+	transform:scale(0.5);
+	}
+	
+.rope1{
+	width:218px;
+	height:180px;
+	background:url(file:///C|/Users/Administrator/Desktop/study_text/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8B/%E7%B2%BD%E5%AD%90css+js/img/line_1.png)center center no-repeat;
+	position:absolute;
+	left:41px;
+	top:154px;
+	opacity:1;
+	transition:all .5s;
+	z-index:10000;
+	}
+.rope1_out{
+	opacity:0;
+	}
+	
+.rope2{
+	width:219px;
+	height:159px;
+	background:url(file:///C|/Users/Administrator/Desktop/study_text/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8B/%E7%B2%BD%E5%AD%90css+js/img/line_2.png)center center no-repeat;
+	position:absolute;
+	left:41px;
+	top:189px;
+	opacity:0;
+	transition:all .5s;
+	}	
+.rope2_in{
+	opacity:1;
+	}
+	
+.rope3{
+	width:264px;
+	height:117px;
+	background:url(file:///C|/Users/Administrator/Desktop/study_text/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8B/%E7%B2%BD%E5%AD%90css+js/img/line_3.png)center center no-repeat;
+	position:absolute;
+	left:41px;
+	top:251px;
+	opacity:0;
+	transition:all .5s;
+	}
+.rope3_in{
+	opacity:1;
+	}	
+	
+	
+.rope4{
+	width:288px;
+	height:56px;
+	background:url(file:///C|/Users/Administrator/Desktop/study_text/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8B/%E7%B2%BD%E5%AD%90css+js/img/line_4.png)center center no-repeat;
+	position:absolute;
+	left:48px;
+	top:319px;
+	opacity:0;
+	transition:all .5s;
+	}	
+
+.rope4_in{
+	opacity:1;
+	}	
+
+.rope2_out,.rope3_out,.rope4_out{
+	opacity:0;
+	}	
+	
+.ricePudding_meat{
+	width:300px;
+	height:300px;
+	background:url(file:///C|/Users/Administrator/Desktop/study_text/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8B/%E7%B2%BD%E5%AD%90css+js/img/zzr_1.png)center center no-repeat;
+	position:absolute;
+	left:51px;
+	top:53px;
+	z-index:999;
+	opacity:0;
+	transform:scale(0.5);
+	transition:all 1s;
+	}
+.ricePudding_meat_in{
+	transform:scale(1);
+	opacity:1;
+	}
+
+.ricePudding_meat_view2{
+	transition:none;
+	background:url(file:///C|/Users/Administrator/Desktop/study_text/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8B/%E7%B2%BD%E5%AD%90css+js/img/zzr_2.png)center center no-repeat;
+	}
+.ricePudding_meat_view3{
+	transition:none;
+	background:url(file:///C|/Users/Administrator/Desktop/study_text/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8B/%E7%B2%BD%E5%AD%90css+js/img/zzr_3.png)center center no-repeat;
+	}
+.ricePudding_meat_view4{
+	transition:none;
+	background:url(file:///C|/Users/Administrator/Desktop/study_text/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8B/%E7%B2%BD%E5%AD%90css+js/img/zzr_4.png)center center no-repeat;
+	}
+.ricePudding_meat_view5{
+	transition:none;
+	transform:rotateY(180deg);
+	}
+	
+.ricePudding_meat_view6{
+	transition:none;
+	transform:rotateY(180deg);
+	}
+	
+.leaves_left{
+	width:147px;
+	height:266px;
+	background:url(file:///C|/Users/Administrator/Desktop/study_text/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8B/%E7%B2%BD%E5%AD%90css+js/img/leaf_left.png)center center no-repeat;
+	position:absolute;
+	left:29px;
+	top:7px;
+	opacity:0;
+	z-index:99;
+	transition:all 1s;
+	}
+.leaves_left_in{
+	opacity:1;
+	transform-origin:bottom left;
+	transform:rotate(-5deg);
+	}
+.leaves_left_out{
+	opacity:0;
+	transform-origin:bottom left;
+	transform:rotate(-10deg);
+	}
+	
+
+.leaves_right{
+	width:318px;
+	height:338px;
+	background:url(file:///C|/Users/Administrator/Desktop/study_text/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8B/%E7%B2%BD%E5%AD%90css+js/img/leaf_right.png)center center no-repeat;
+	position:absolute;
+	left:87px;
+	top:-3px;
+	opacity:0;
+	z-index:99;
+	transition:all 1s;
+	}
+.leaves_right_in{
+	opacity:1;
+	transform:rotate(5deg);
+	transform-origin:bottom right;
+	}
+.leaves_right_out{
+	opacity:0;
+	transform:rotate(10deg);
+	transform-origin:bottom right;
+	}
+	
+.leaves_bottom{
+	width:618px;
+	height:464px;
+	background:url(file:///C|/Users/Administrator/Desktop/study_text/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8B/%E7%B2%BD%E5%AD%90css+js/img/leaf_expand.png)center center no-repeat;
+	position:absolute;
+	left:-89px;
+	top:8px;
+	opacity:0;
+	z-index:98;
+	transition:all 1s;
+	}
+.leaves_bottom_in{
+	opacity:1;
+	}
+.leaves_bottom_out{
+	opacity:0;
+	}
+	
+	
+.blessing1{
+	width:180px;
+	height:100px;
+	background:url(file:///C|/Users/Administrator/Desktop/study_text/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8B/%E7%B2%BD%E5%AD%90css+js/img/t_haoyun.png)center center no-repeat;
+	position:absolute;
+	left:114px;
+	top:175px;
+	z-index:10000;
+	opacity:0;
+	}
+
+.blessing1_l0{
+		width:180px;
+	height:100px;
+	background:url(file:///C|/Users/Administrator/Desktop/study_text/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8B/%E7%B2%BD%E5%AD%90css+js/img/t_haoyun.png)center center no-repeat;
+	position:absolute;
+	left:114px;
+	top:175px;
+	z-index:10000;
+	opacity:1;
+}
+	
+	
+.blessing1_l1{
+	width:180px;
+	height:100px;
+	background:url(file:///C|/Users/Administrator/Desktop/study_text/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8B/%E7%B2%BD%E5%AD%90css+js/img/t_haoyun.png)center center no-repeat;
+	position:absolute;
+	left:84px;
+	top:167px;
+	z-index:30000;
+	opacity:1;
+	transform:rotate(22deg) scale(0.8)
+	
+	}
+	
+.blessing2_r1{
+	width:180px;
+	height:100px;
+	background:url(file:///C|/Users/Administrator/Desktop/study_text/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8B/%E7%B2%BD%E5%AD%90css+js/img/t_jixiang.png)center center no-repeat;
+	position:absolute;
+	left:193px;
+	top:173px;
+	z-index:20000;
+	opacity:1;
+	transform:rotate(-32deg) scale(0.4)
+	}
+	
+.blessing1_l2{
+	width:180px;
+	height:100px;
+	background:url(file:///C|/Users/Administrator/Desktop/study_text/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8B/%E7%B2%BD%E5%AD%90css+js/img/t_haoyun.png)center center no-repeat;
+	position:absolute;
+	left:74px;
+	top:174px;
+	z-index:30000;
+	opacity:1;
+	transform:rotate(38deg) scale(0.7)
+	
+	}
+	
+.blessing2_r2{
+	width:180px;
+	height:100px;
+	background:url(file:///C|/Users/Administrator/Desktop/study_text/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8B/%E7%B2%BD%E5%AD%90css+js/img/t_jixiang.png)center center no-repeat;
+	position:absolute;
+	left:180px;
+	top:173px;
+	z-index:20000;
+	opacity:1;
+	transform:rotate(-32deg) scale(0.5)
+	}
+	
+.blessing1_l3{
+	width:180px;
+	height:100px;
+	background:url(file:///C|/Users/Administrator/Desktop/study_text/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8B/%E7%B2%BD%E5%AD%90css+js/img/t_haoyun.png)center center no-repeat;
+	position:absolute;
+	left:31px;
+	top:176px;
+	z-index:30000;
+	opacity:1;
+	transform:rotate(42deg) scale(0.4)
+	
+	}
+	
+.blessing2_r3{
+	width:180px;
+	height:100px;
+	background:url(file:///C|/Users/Administrator/Desktop/study_text/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8B/%E7%B2%BD%E5%AD%90css+js/img/t_jixiang.png)center center no-repeat;
+	position:absolute;
+	left:150px;
+	top:173px;
+	z-index:20000;
+	opacity:1;
+	transform:rotate(-16deg) scale(0.7)
+	}
+
+.blessing2_r4{
+	width:180px;
+	height:100px;
+	background:url(file:///C|/Users/Administrator/Desktop/study_text/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8B/%E7%B2%BD%E5%AD%90css+js/img/t_jixiang.png)center center no-repeat;
+	position:absolute;
+	left:112px;
+	top:173px;
+	z-index:20000;
+	opacity:1;
+	transform:scale(1)
+	}
